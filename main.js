@@ -25,10 +25,10 @@ renderer.render(scene, camera)
 
 // Creating a light for the scene
 const pointLight = new THREE.PointLight(0xFFFFFF)
-pointLight.position.set(10, 10, 10)
+pointLight.position.set(8, 7, 10)
 scene.add(pointLight)
 
-const ambientLight = new THREE.AmbientLight(0xffffff)
+const ambientLight = new THREE.AmbientLight(0x444444)
 scene.add(ambientLight)
 
 // Helpers
